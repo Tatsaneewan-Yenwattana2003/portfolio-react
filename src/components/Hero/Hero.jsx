@@ -12,8 +12,7 @@ function Hero() {
             <h3 className={styles.text_2}>Tatsaneewan Yenwattana</h3>
             <p className={styles.text_3}>I'm a full-stack developer</p>
             <p className={styles.text_4}>
-              who crafted this online experience. Take a peek under the hood and
-              see what makes it tick.
+              เริ่มประสบการณ์ใหม่กับเรา
             </p>
             <ul className={styles.hero_social}>
               <li>

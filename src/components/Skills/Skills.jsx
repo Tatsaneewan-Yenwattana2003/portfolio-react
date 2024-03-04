@@ -14,7 +14,7 @@ function Skills() {
             <li><FaNode/></li>
             
         </ul>
-      
+            
     </div>
   )
 }
