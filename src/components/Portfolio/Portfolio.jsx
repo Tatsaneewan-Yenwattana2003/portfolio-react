@@ -27,7 +27,7 @@ function Portfolio() {
             <p>Project Game</p>
         </div>
         <div className={styles.port_items}>
-            <img src="src/components/Portfolio/309695153_458480182921010_7544557642122114074_n.jpg" alt="" />
+            <img src="src/components/Portfolio/pexels-rodrigo-santos-3888149.jpg" alt="" />
             <p>Project Basic number system</p>
         </div>
       </div>
