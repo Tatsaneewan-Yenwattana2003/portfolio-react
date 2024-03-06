@@ -22,7 +22,7 @@ function Testimonials() {
           <img
             src={user.img1} 
           />
-          <h4>Mango</h4>
+          <h4>Madtul</h4>
           <p className={styles.bio}>Web Developer</p>
         </div>
         <div className={styles.testi_items}>
@@ -35,7 +35,7 @@ function Testimonials() {
           <img
             src={user.img2}
           />
-          <h4>Orange</h4>
+          <h4>Ten</h4>
           <p className={styles.bio}>Web Developer</p>
         </div>
         <div className={styles.testi_items}>
@@ -48,7 +48,7 @@ function Testimonials() {
           <img
             src={user.img3}
           />
-          <h4>Watermelon</h4>
+          <h4>Kong</h4>
           <p className={styles.bio}>Web Developer</p>
         </div>
       </div>
