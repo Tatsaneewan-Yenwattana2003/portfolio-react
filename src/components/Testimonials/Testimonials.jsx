@@ -1,6 +1,12 @@
 import React from "react";
 import styles from "./Testimonials.module.css";
 
+const user={
+  img1:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWVKEmjMgBEZx0m_SP8jYdEocvrbNRYFZ1og&usqp=CAU',
+  img2:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB_3DLE16FXcPC1lBfcmuy0Vve-jGCSByA-A&usqp=CAU',
+  img3:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGvvJ0rYJSI4pFMSclzTmX88DG_gzB7D0fZg&usqp=CAU',
+}
+
 function Testimonials() {
   return (
     <div className={styles.testi_con}>
@@ -14,8 +20,7 @@ function Testimonials() {
             nesciunt!
           </p>
           <img
-            src="https://images.unsplash.com/photo-1552053831-71594a27632d?q=80&w=1262&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            src={user.img1} 
           />
           <h4>Mango</h4>
           <p className={styles.bio}>Web Developer</p>
@@ -28,8 +33,7 @@ function Testimonials() {
             nesciunt!
           </p>
           <img
-            src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            src={user.img2}
           />
           <h4>Orange</h4>
           <p className={styles.bio}>Web Developer</p>
@@ -42,8 +46,7 @@ function Testimonials() {
             nesciunt!
           </p>
           <img
-            src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt=""
+            src={user.img3}
           />
           <h4>Watermelon</h4>
           <p className={styles.bio}>Web Developer</p>
